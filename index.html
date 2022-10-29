@@ -1,0 +1,98 @@
+<html>
+
+
+<head>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+<title>Yummy </title>
+<link rel="shortcut icon" type="image/png" href="images/favicon.png.png">
+
+</head>
+
+<body>
+<div class="loading postion-fixied justify-content-center align-items-center">
+
+</div>
+<div id="wrapper">
+  <div class="overlay"></div>
+
+<!-- Sidebar -->
+  <nav class="navbar navbar-inverse fixed-top" id="sidebar-wrapper" role="navigation">
+    <ul class="nav sidebar-nav">
+
+      <li><a href="#Search" class="sea">Search</a></li>
+      <li><a href="#Categories">Categories</a></li>
+      <li><a href="#Area">Area</a></li>
+      <li><a href="#Ingredients">Ingredients</a></li>
+      <li><a href="#Contactus">Contact Us</a></li>
+    </ul>
+    <div class="sidebar-icons">
+  <a> <i class="fab fa-facebook-f "></i></a>
+  <a> <i class="fab fa-twitter"></i></a>
+  <a> <i class="fas fa-globe"></i></a>
+    </div>
+    <div class="side-bar-desc">
+      <span>Contact Us Copyright © 2019 All Rights 
+      </hr> Reserved.</span>
+    </div>
+ </nav>
+
+       <!-- /#sidebar-wrapper -->
+       <!-- Page Content -->
+
+     
+       <div id="page-content-wrapper">
+        <img src="images/logo.png" class="logoimg ">
+           <button type="button" class="hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
+               <span class="hamb-top"></span>
+         <span class="hamb-middle"></span>
+       <span class="hamb-bottom"></span>
+           </button>
+           <div class="nav-icons d-flex justify-content-center align-items-lg-center flex-column ">
+           <span class="nav-icon1"> <i class="fa fa-globe"> </i> </span>
+           <span><i class="fa fa-share-alt"> </i> </span>
+       </div>
+       </div>
+  
+</div>
+       <!-- /#page-content-wrapper -->
+   <!-- /#wrapper -->
+   <section class="container ">
+
+    <div class="container">
+      <div class="flex">
+        <div class="ff"></div>
+          <form class="flex" id="submit">
+            <input type="text" id="search" placeholder="Search for meals">
+            <button class="search-btn" type="submit">
+                <i class="fas fa-search"></i>
+            </button>
+         
+          </form>
+          <button class="random-btn" id="random">
+            <i class="fa-solid fa-burger"></i>
+          </button>
+      </div>
+      <div class="result-heading"></div>
+      <div id="meals" class="meals"></div>
+      <div id="single-meal"></div>
+    </div>
+    
+   </section>
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+
+
+
+
+
+
+
+</body>
+
+</html>
